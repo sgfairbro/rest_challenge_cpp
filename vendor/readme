@@ -1,0 +1,15 @@
+Vendor dependencies
+
+Pistache C++ REST framework
+http://pistache.io/
+
+This repository expects pistache to be cloned and built in the vendor 
+directory. Follow pistache's "Getting Started" guide to clone and build:
+
+git clone --recurse-submodules https://github.com/pistacheio/pistache.git
+cd pistache
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+sudo make install
+
