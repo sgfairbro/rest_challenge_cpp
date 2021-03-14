@@ -2,7 +2,7 @@ PROJECT(dataProcessor_test)
 
 FILE(GLOB EXE_SOURCES "*.cpp")
 
-message( "controller test exe sources: ${EXE_SOURCES} ")
+message( "dataProcessor_test exe sources: ${EXE_SOURCES} ")
 
 #link_directories()
 

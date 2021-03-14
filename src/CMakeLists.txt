@@ -1,3 +1,5 @@
 add_subdirectory(controller)
 add_subdirectory(dataProcessor)
+add_subdirectory(restClient)
+add_subdirectory(restServer)
 add_subdirectory(restExecutable)

@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-  rest::Controller controller; 
+  rest::Controller controller( std::string() );
   std::cout << "Hello world" << std::endl; 
   return 1; 
 }

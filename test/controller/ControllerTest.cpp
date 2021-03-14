@@ -1,5 +1,6 @@
 
 #include "Controller.h"
+#include "RestClient.h"
 
 #include "gtest/gtest.h"
 
@@ -12,7 +13,7 @@ class ControllerTest : public testing::Test
 public:
   void SetUp()
   {
-    mpController = make_shared< rest::Controller >(); 
+    mpController = make_shared< rest::Controller >( std::string() );
   }
 
   void TearDown()
